@@ -88,7 +88,7 @@ ROS：ROS1 Kinetic及其封装的系列库、mbot系列包、gazebo
 
 通过catkin_make对相关工作空间进行编译后，新建两个终端，分别打开以下两个launcher，以先后打开ros桥的websocket通信服务器与机器人仿真环境：
 
-'''
+```
 roslaunch rosbridge_server rosbridge_websocket.launch
 roslaunch mbot_gazebo mbot_laser_nav_gazebo.launch
-'''
+```
